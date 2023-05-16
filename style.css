@@ -2,6 +2,10 @@
 il nome del css anche qui è arbitrario.
 */
 
+* {
+  overflow: hidden;
+}
+
 /* Vado a selezionare TUTTI i tag html che sono <p> e li metto in blu*/
 p {
   color: blue;
