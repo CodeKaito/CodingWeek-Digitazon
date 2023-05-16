@@ -1,0 +1,32 @@
+/* Sono un bellissimo commento :) 
+il nome del css anche qui è arbitrario.
+*/
+
+/* Vado a selezionare TUTTI i tag html che sono <p> e li metto in blu*/
+p {
+  color: blue;
+}
+
+/* Seleziono per classe*/
+.intro {
+  font-size: 18px;
+}
+
+/* Seleziono per id che deve essere lo stesso ed identico di quello in pagina*/
+#my-button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+}
+
+/* Seleziona tutti gli elementi li che sono figli di un elemento ul e applica un font-weight di bold */
+
+/* Aggancia tutti gli elementi html <li> che sono discendenti diretti di un <ul> */
+ul > li {
+  font-weight: bold;
+}
+
+/* Aggancia tutti gli elementi html <p> che sono discendenti  di un <div> */
+div p {
+  margin: 10px;
+}
